@@ -10,7 +10,8 @@ const AnimatedCounter = ({
       <CountUp 
         duration={2}
         decimals={2}
-        decimal=","
+        decimal="."
+        separator=","
         prefix="R"
         end={amount}
       />
